@@ -1,0 +1,21 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    width: 100%;
+    
+}
+.phones #holder .style-col:hover{
+    box-shadow:10px 0px 16px 0px rgba(0,0,0,0.7);
+}
+.phones #holder .style-col button{
+    margin-bottom: 5px;
+}
+.phones #holder{
+    height: fit-content;
+    width:fit-content;
+}
+.phones #holder .style-col{
+    margin-top:10px;
+    border-radius:10px;
+}
