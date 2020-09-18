@@ -23,20 +23,10 @@ images.forEach((image)=>{
     logos.appendChild(imageDiv);
 })
 
-/*<div>
-    <div img><img></div>
-    <div info>
-       p-official store
-       h3-
-       p-price/current 
-       p-old/price
-    </div>
-</div>*/
-
 let phones= [{
     'img':"images/phones/1.jpg",
     'official':"Official Store",
-    'name':"Vivo Y30 - 6.47\'\' - 128GB+4GB RAM - Dual SIM - 4G - 5000mAh - Moonstone White",
+    'name':"Vivo Y30 - 6.47\'\' - 128GB+4GB RAM-Dual SIM-4G-5000mAh-Moonstone White",
     'current':"15,999",
     'old':"21,999"
     },{
@@ -54,7 +44,7 @@ let phones= [{
     },{
     'img':"images/phones/ss.jpg",
     'official':"shipped",
-    'name':"Samsung-Galaxy-a21s-6.5-64GB-4GB-RAM-Dual-Sim-4000-mAh-Black",
+    'name':"Samsung-a21s-6.5-64GB-4GB-RAM-Dual-Sim-Black",
     'current':"19,999",
     'old':"30,000"
     },{
@@ -72,7 +62,7 @@ let phones= [{
     },{
     'img':"images/phones/umidigi.jpg",
     'official':"Official Store",
-    'name':"umidigi-a7-pro-6.3-4gb128gb-rom-android-10.0-quad-camera-dual-4g-smartphone",
+    'name':"umidigi-a7-pro-6.3-4gb128gb-rom-android-10.0-quad-camera-dual-4g",
     'current':"15000",
     'old':"22000"
     },{
@@ -80,7 +70,7 @@ let phones= [{
     'official':"Official Store",
     'name':"iphone-11-pro-max-256gb-physical-dual-sim-midnight-green-apple",
     'current':"155000",
-    'old':"16000"
+    'old':"160000"
     },{
     'img':"images/phones/apple2.jpg",
     'official':"Official Store",
@@ -97,13 +87,13 @@ phones.forEach(phone=>{
     const divlink =document.createElement('a');
     const store =document.createElement('p');
     const abt =document.createElement('p')
-    const current=document.createElement('h4');
-    const old =document.createElement('h4');
+    const current=document.createElement('h6');
+    const old =document.createElement('h6');
     const img =document.createElement('img');
     const shopbtn =document.createElement('button')
 
     //attributes;
-    setAttribute(coldiv,{"class":'col-6 col-md-4'});
+    setAttribute(coldiv,{"class":'col-6 col-md-4 style-col'});
     setAttribute(img,{"src":phone.img,"class":"img-fluid"});
     setAttribute(infodiv,{"class":"info"});
     setAttribute(divlink,{"href":''})
@@ -119,16 +109,17 @@ phones.forEach(phone=>{
     //styling;
     divlink.style.textDecoration="none";
     divlink.style.color ="black";
-    store.style.width="fit-content"
-    divlink.style.boxShadow ="box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);"
+    store.style.width="fit-content";
+    img.style.margin="0px 0px";
+    abt.style.fontSize="small";
+    coldiv.style.fontSize="small"
+    old.style.textDecoration ='line-through'
+
     if(store.textContent=='Official Store'){
         store.style.backgroundColor = "red"
     }else{
         store.style.backgroundColor="blue";
     }
-
-
-
     //appending
     imgdiv.appendChild(img);
     infodiv.append(store,abt,current,old,shopbtn);
