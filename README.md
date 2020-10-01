@@ -18,4 +18,4 @@ An online mobile store that sells mobile phones;
 * More items to be added
 * Make buttons more responsive.
 
-To see it live, click >> https://ealpha072.github.io/bootstrap-first/
+To see it live, click >> https://ealpha072.github.io/phone-onine-store/
