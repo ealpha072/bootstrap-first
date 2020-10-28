@@ -1,4 +1,4 @@
-# bootstrap-first
+# phone store
 An online mobile store that sells mobile phones;
 
 ## Techs used:
