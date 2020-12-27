@@ -14,8 +14,6 @@ An online mobile store that sells mobile phones;
 * Button styling
 
 ## To do;
-* Add an actual mock cart that users can use;
-* More items to be added
 * Make buttons more responsive.
 
 To see it live, click >> https://ealpha072.github.io/phone-onine-store/
