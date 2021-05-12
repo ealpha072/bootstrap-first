@@ -1,5 +1,5 @@
 # phone store
-An online mobile store that sells mobile phones;
+An online mobile store dealing in selling of mobile phones;
 
 ## Techs used:
 * JavaScript -logic
