@@ -1,11 +1,11 @@
 # phone store
 An online mobile store dealing in selling of mobile phones;
 
-## Techs used:
+## Technologies used:
 * JavaScript -logic
 * HTML - frontend
 * CSS- abit for extra styling
-* Bootstrap--majorly as this was a first bootstrap project;
+* Bootstrap - majorly as this was a first bootstrap project;
 
 ## Things learnt;
 * Form styling;
